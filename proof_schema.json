@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org",
+  "title": "ProofAgentCampaignAnchor",
+  "type": "object",
+  "properties": {
+    "campaign_id": { "type": "string", "format": "uuid" },
+    "block_height": { "type": "integer", "example": 148392133 },
+    "agent_signatures": {
+      "type": "object",
+      "properties": {
+        "nlp_parser_node": { "type": "string", "example": "ed25519:6M4..." },
+        "thread_synthesizer_node": { "type": "string", "example": "ed25519:3B2..." }
+      }
+    },
+    "provenance_hashes": {
+      "type": "object",
+      "properties": {
+        "source_ingest_hash": { "type": "string", "description": "SHA-256 hash of the raw code commit or transcript data." },
+        "generated_content_hash": { "type": "string", "description": "SHA-256 hash of the synthesized X threads to prevent tampering." }
+      }
+    },
+    "intent_settlement": {
+      "type": "object",
+      "properties": {
+        "receiver_id": { "type": "string", "example": "adexberry.near" },
+        "payout_amount_yocto": { "type": "string", "example": "1220000000000000000000000" },
+        "gas_estimation_near": { "type": "number", "example": 0.00038 }
+      }
+    }
+  },
+  "required": ["campaign_id", "block_height", "agent_signatures", "provenance_hashes", "intent_settlement"]
+}
