@@ -1,4 +1,4 @@
-{
+}
   "$schema": "https://json-schema.org",
   "title": "ProofAgentCampaignAnchor",
   "type": "object",
