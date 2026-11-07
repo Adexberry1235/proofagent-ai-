@@ -1,0 +1,21 @@
+{
+  "name": "proofagent-ai",
+  "version": "1.0.0",
+  "description": "Autonomous business agent for content analytics and automated NEAR payout settlement",
+  "main": "src/index.js",
+  "scripts": {
+    "start:agent": "node src/index.js --run-agent",
+    "verify:payout": "node src/index.js --verify-payout"
+  },
+  "keywords": [
+    "near",
+    "ai-agent",
+    "autonomous-business",
+    "intents"
+  ],
+  "author": "Adexberry1235",
+  "license": "MIT",
+  "dependencies": {
+    "near-api-js": "^4.0.0"
+  }
+}
