@@ -1,0 +1,24 @@
+# NEAR Hackathon 2026: ProofAgent AI
+
+## Track Alignment
+- **Primary Track:** Track 04 — Autonomous Business
+- **Secondary Track:** Track 07 — Agent Economy
+
+---
+
+## 1. Executive Summary
+ProofAgent AI is an autonomous business agent that bridges long-context content analysis with automated NEAR micro-payouts. 
+It ingests video transcripts or technical documentation, generates verified social marketing campaigns, and executes instant NEAR payout intents upon task verification.
+
+---
+
+## 2. NEAR Toolkit & Integration
+- **NEAR Intents:** Used for cross-chain automated payout execution.
+- **NEAR Account Integration:** Enables serverless micro-transactions for verified creator deliverables.
+- **AI Agent Core:** Autonomous content analysis and deliverable verification engine.
+
+---
+
+## 3. Quickstart & Testing Guide ("Do X, See Y")
+
+### Step 1: Clone & Install
