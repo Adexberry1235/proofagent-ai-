@@ -1,0 +1,4 @@
+Project: ProofAgent AI Launch
+Overview: Autonomous business agent bridging long-context content analysis with automated NEAR micro-payouts for Web3 creators and developers.
+Deliverables: Video content analysis, automated X campaign generation, and instant NEAR Intent payout verification.
+Target Audience: Web3 builders, content creators, and hackathon judges.
